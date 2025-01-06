@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pokemon Card</h1>
+    <form id="pokemonForm">
+        <label for="numcard">Number of Card:</label>
+        <input tpye="number" id="numcard" min="1" max="10" required>
+        <br><br>
+        <label for="category">Category:</label>
+        <select id="category">
+          <option value="1-151">Kanto (1-151)</option>
+          <option value="152-251">Johto (152-251)</option>
+          <option value="252-386">Hoenn (252-386)</option>
+        </select>
+        <br><br>
+        <button type="submit">Get Pokémon</button>
+      </form>
+
+    <div id="CardAddhere"></div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
