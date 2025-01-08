@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Taskify</h1>
+    <div class="MainBlock">
+        <div class="Column" id="Column1Id">
+            <h2>To Do</h2>
+            <div class="emptydiv" id="SaareTodoHere"></div>
+            <button onclick="addTask('todo')">Add Todo</button>
+        </div>
+
+        <div class="Column" id="Column2Id">
+            <h2>In Progress</h2>
+            <div class="emptydiv" id="SaareProgessHere"></div>
+            <button onclick="addTask('progress')">Add New</button>
+        </div>
+
+        <div class="Column" id="Column3Id">
+            <h2> Under Review</h2>
+            <div class="emptydiv" id="SaareReviewHere"></div>
+            <button onclick="addTask('review')">Add New</button>
+        </div>
+
+        <script src="app.js"></script>
+
+      
+
+    </div>
+</body>
+</html>
